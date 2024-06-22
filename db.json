@@ -1,0 +1,46 @@
+{
+    "additionalQuestions": {
+      "technology": [
+        
+        {
+          "id": 1,
+          "question": "update your skills?",
+          "type": "select",
+          "options": ["Monthly", "Quarterly", "Yearly"]
+        },
+        {
+          "id":2,
+          "question": "favourite section in Web ?",
+          "type":"select",
+          "options":["Front end","Back end","Database"]
+        }
+      ],
+      "health": [
+        {
+          "id": 1,
+          "question": "How many hours do you sleep per night?",
+          "type": "number"
+        },
+        {
+          "id": 2,
+          "question": "Do you have any chronic conditions?",
+          "type": "checkbox",
+          "options": ["Diabetes", "Hypertension", "Asthma", "None"]
+        }
+      ],
+      "education": [
+        {
+          "id": 1,
+          "question": "Are you considering further education?",
+          "type": "radio",
+          "options": ["Yes", "No", "Undecided"]
+        },
+        {
+          "id": 2,
+          "question": "What's your preferred learning style?",
+          "type": "select",
+          "options": ["Visual", "Auditory", "Kinesthetic"]
+        }
+      ]
+    }
+  }
