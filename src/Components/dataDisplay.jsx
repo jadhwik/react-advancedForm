@@ -138,7 +138,7 @@ const dataDisplay = ({ formData }) => {
                 )}
               </div>
             )}
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row ">
               <span className="text-red-500 font-semibold mr-2">Feedback:</span>
               <div className="max-w-[400px] break-words">
                 <p className="text-balance">{formData.feedback}</p>
